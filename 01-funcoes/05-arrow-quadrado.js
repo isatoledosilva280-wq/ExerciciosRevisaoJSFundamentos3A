@@ -4,3 +4,6 @@
 //
 // Escreva sua solução abaixo:
 
+const calcularQuadrado = (numero) => numero * numero;
+
+console.log(`O quadrado de 9 é: ${calcularQuadrado(9)}`);

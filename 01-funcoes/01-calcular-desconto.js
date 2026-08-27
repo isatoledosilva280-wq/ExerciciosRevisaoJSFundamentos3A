@@ -7,3 +7,12 @@
 //
 // Escreva sua solução abaixo:
 
+function calcularDesconto(preco, descontoPorcentagem) {
+  const valorDesconto = preco * (descontoPorcentagem / 100);
+  const resultado = preco - valorDesconto;
+  return resultado;
+}
+
+// Para obter 100 a partir de 200, passamos 50% de desconto
+const resultado = calcularDesconto(200, 50);
+console.log(`Preço final: R$ ${resultado}`);

@@ -5,3 +5,13 @@
 //
 // Escreva sua solução abaixo:
 
+const produtos = [
+  { nome: "Camiseta", preco: 50 },
+  { nome: "Calça", preco: 120 },
+  { nome: "Meia", preco: 15 },
+  { nome: "Tênis", preco: 250 },
+  { nome: "Boné", preco: 80 }
+];
+
+const produtosBaratos = produtos.filter(produto => produto.preco <= 100);
+console.log(produtosBaratos);

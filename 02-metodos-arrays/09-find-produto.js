@@ -5,3 +5,12 @@
 //
 // Escreva sua solução abaixo:
 
+const produtos = [
+  { nome: "Mouse", preco: 50 },
+  { nome: "Teclado", preco: 150 },
+  { nome: "Monitor", preco: 800 },
+  { nome: "Fone", preco: 100 }
+];
+
+const produtoEncontrado = produtos.find(produto => produto.nome === "Teclado");
+console.log(produtoEncontrado);

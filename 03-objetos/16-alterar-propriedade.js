@@ -5,3 +5,15 @@
 //
 // Escreva sua solução abaixo:
 
+const produto = {
+  nome: "Iphone",
+  preco: 2000,
+  estoque: 10
+};
+
+console.log("Antes:", produto);
+
+produto.preco = 1800;
+produto.estoque -= 1;
+
+console.log("Depois:", produto);

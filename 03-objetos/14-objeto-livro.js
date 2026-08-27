@@ -4,3 +4,11 @@
 //
 // Escreva sua solução abaixo:
 
+const livro = {
+  titulo: "O Senhor dos Anéis",
+  autor: "J.R.R. Tolkien",
+  ano: 1954,
+  disponivel: true
+};
+
+console.log(livro);

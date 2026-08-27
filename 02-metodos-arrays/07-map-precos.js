@@ -5,3 +5,8 @@
 //
 // Escreva sua solução abaixo:
 
+const precosOriginais = [50, 100, 150, 200];
+const precosReajustados = precosOriginais.map(preco => preco * 1.10);
+
+console.log("Array original:", precosOriginais);
+console.log("Novo array:", precosReajustados);

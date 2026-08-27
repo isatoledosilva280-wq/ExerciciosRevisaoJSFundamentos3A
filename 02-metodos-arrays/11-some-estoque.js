@@ -5,3 +5,7 @@
 //
 // Escreva sua solução abaixo:
 
+const estoque = [5, 3, 0, 8, 2];
+const temSemEstoque = estoque.some(qtd => qtd === 0);
+
+console.log(temSemEstoque);

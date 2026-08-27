@@ -5,3 +5,20 @@
 //
 // Escreva sua solução abaixo:
 
+class Veiculo {
+  constructor(marca, modelo, ano) {
+    this.marca = marca;
+    this.modelo = modelo;
+    this.ano = ano;
+  }
+
+  exibirDados() {
+    console.log(`Veículo: ${this.marca} ${this.modelo} (${this.ano})`);
+  }
+}
+
+const veiculo1 = new Veiculo("Toyota", "Corolla", 2022);
+const veiculo2 = new Veiculo("Honda", "Civic", 2021);
+
+veiculo1.exibirDados();
+veiculo2.exibirDados();

@@ -5,3 +5,14 @@
 //
 // Escreva sua solução abaixo:
 
+const usuario = {
+  nome: "Gabriel",
+  email: "gabriel@email.com"
+};
+
+const usuarioComStatus = {
+  ...usuario,
+  ativo: true
+};
+
+console.log(usuarioComStatus);

@@ -5,3 +5,14 @@
 //
 // Escreva sua solução abaixo:
 
+const filmes = [
+  { titulo: "Maze Runner", genero: "Ficção Científica", duracao: 148 }, 
+  { titulo: "Interstellar", genero: "Ficção Científica", duracao: 249 },
+  { titulo: "Invocação do Mal", genero: "Terror", duracao: 169 },
+];
+
+filmes.forEach(filme => {
+  console.log(filme.titulo);
+  console.log(filme.genero);
+  console.log(filme.duracao);
+});

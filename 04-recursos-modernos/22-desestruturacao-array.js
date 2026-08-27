@@ -5,3 +5,9 @@
 //
 // Escreva sua solução abaixo:
 
+const cores = ["Azul", "Preto", "Verde"];
+const [cor1, cor2, cor3] = cores;
+
+console.log(cor1);
+console.log(cor2);
+console.log(cor3);

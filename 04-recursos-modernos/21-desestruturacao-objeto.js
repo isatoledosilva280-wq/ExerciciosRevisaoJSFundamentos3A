@@ -5,3 +5,14 @@
 //
 // Escreva sua solução abaixo:
 
+const curso = {
+  nome: "JavaScript Avançado",
+  cargaHoraria: 40,
+  modalidade: "Online"
+};
+
+const { nome, cargaHoraria, modalidade } = curso;
+
+console.log(nome);
+console.log(cargaHoraria);
+console.log(modalidade);

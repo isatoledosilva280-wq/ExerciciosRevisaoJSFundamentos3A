@@ -4,3 +4,12 @@
 //
 // Escreva sua solução abaixo:
 
+const retangulo = {
+  largura: 10,
+  altura: 5,
+  calcularArea: function() {
+    return this.largura * this.altura;
+  }
+};
+
+console.log(`Área do retângulo: ${retangulo.calcularArea()}`);

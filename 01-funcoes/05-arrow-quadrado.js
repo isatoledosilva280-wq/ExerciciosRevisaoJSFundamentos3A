@@ -6,4 +6,4 @@
 
 const calcularQuadrado = (numero) => numero * numero;
 
-console.log(`O quadrado de 9 é: ${calcularQuadrado(9)}`);
+console.log(`O quadrado de 8 é: ${calcularQuadrado(8)}`);
